@@ -6,10 +6,12 @@ import { environment } from './environments/environment';
 import { BuilderModule } from '@builder.io/angular';
 import { BuilderBlock } from '@builder.io/angular';
 import { Component, Input } from '@angular/core';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatIconModule } from '@angular/material/icon';
 //import { ButtonComponentComponent } from './app/button-component/button-component.component';
 
 @NgModule({
-  imports: [ BuilderModule.forRoot('fb39763560ba4c39959923ab41e49eec'),],
+  imports: [ BuilderModule.forRoot('fb39763560ba4c39959923ab41e49eec')],
 })
 
 @BuilderBlock({

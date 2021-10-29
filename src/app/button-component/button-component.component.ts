@@ -1,12 +1,12 @@
 import { componentFactoryName } from '@angular/compiler';
-import { Component, OnInit } from '@angular/core';
+import { Component, NgModule, OnInit } from '@angular/core';
 import { BuilderBlock } from '@builder.io/angular';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatDividerModule} from '@angular/material/divider';
 @BuilderBlock({
   tag: 'button-thing',
-  name: 'button',
+  name: 'button set',
   inputs: [
     {
       name: 'buttonname',
@@ -16,8 +16,21 @@ import {MatDividerModule} from '@angular/material/divider';
       name: 'buttonlink',
       type: 'url',
     },
+    {
+      name: 'buttonlink',
+      type: 'url',
+    },
+    {
+      name: 'buttonlink',
+      type: 'url',
+    },
+    {
+      name: 'buttonlink',
+      type: 'url',
+    },
   ],
 })
+
 @Component({
   selector: 'app-button-component',
   templateUrl: './button-component.component.html',
