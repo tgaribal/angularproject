@@ -16,12 +16,6 @@ import { RouterModule } from '@angular/router';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
-    RouterModule.forRoot([
-      {
-        path: '**',
-        component: ButtonComponentComponent,
-      },
-    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
