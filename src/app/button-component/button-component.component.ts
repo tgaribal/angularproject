@@ -47,7 +47,7 @@ export class ButtonComponentComponent implements OnInit {
   }
   
   myFunc(){
-    window.alert("Button works!!:) EE HA Ha");
+    window.alert("Button works!!:)");
   }
 
   contentLoaded(data) {
