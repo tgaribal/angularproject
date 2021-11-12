@@ -8,4 +8,6 @@ import { Component, Input } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularproject';
+  contentLoaded(data){} 
+  contentError(data){}
 }

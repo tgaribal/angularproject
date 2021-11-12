@@ -10,9 +10,9 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatIconModule } from '@angular/material/icon';
 //import { ButtonComponentComponent } from './app/button-component/button-component.component';
 
-@NgModule({
-  imports: [ BuilderModule.forRoot('fb39763560ba4c39959923ab41e49eec')],
-})
+// @NgModule({
+//   imports: [ BuilderModule.forRoot('fb39763560ba4c39959923ab41e49eec')],
+// })
 
 @BuilderBlock({
   tag: 'button-thing',
